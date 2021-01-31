@@ -1,3 +1,6 @@
-#############################################
-# Syntax Coloring Map For Json Broker
-#############################################
+# Syntax Coloring Map For ExampleLibrary
+
+# Methods and Functions (KEYWORD1)
+
+Send_Get_Request_To_Server_Get_Actions KEYWORD1
+Send_Data_To_Server KEYWORD1
