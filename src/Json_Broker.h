@@ -1,5 +1,5 @@
-#ifndef JSON_BROKER_H
-#define JSON_BROKER_H
+#ifndef Json_Broker_H
+#define Json_Broker_H
 #include <Arduino.h>
 #include <ArduinoJson.h>
 #include <WString.h>
