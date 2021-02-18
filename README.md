@@ -3,6 +3,24 @@
 # Overview #
 
 This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it. 
+
+**What is iotsnacks box?**
+<br>
+<blockquote> IoT snacks box is an integrated hardware and software platform to deliver end-to-end IoT solutions. Using this device and platform, data can remotely monitor & control by automate processes through IoT.
+</blockquote>
+
+**What types of work can be done by iotsnacksbox?**
+<br>
+<blockquote>
+Automate processes for  agriculture, industry automation, energy control, healthcare, datalogging and any other system that  can be solved using IoT. With the latest technology and user engaging user experience design with the  finest architecture our web platform allows users to deploy cloud IoT applications, control & monitor  dashboards with any IoT devices. 
+</blockquote>
+
+
+**iotsnacksbox for whom?**
+<br>
+<blockquote>
+This development board provides a range of features that allow developers to build advanced application for smart home, education purpose, gardening, security system specially industrial automation and agricultural sectors.
+</blockquote>
  
 # Installation #
 
