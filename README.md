@@ -2,7 +2,7 @@
 
 # Overview #
 
-This library only will work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advance level you can also use it to skip huge lines of code. Otherwise you can use it. 
+This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it. 
  
 # Installation #
 
@@ -14,7 +14,32 @@ This library has some dependency with others library. If you don't have these li
 
 
 # Usage And Examples #
->>## 1.0.  Get Request: When you send a get request to the Server, it's send back to you it's update. In case, when you send a get request to the IoT Snacks Box Server, it send back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
+
+```
+HTTP Request.
+  ├── 1.0. HTTP Get Request.
+  │   ├── 1.1. HTTP Get Request for Single Action.
+  │   └── 1.2. HTTP Get Request for Multiple Actions.
+  └── 2.0. HTTP Post Request.
+      ├── 2.1.HTTP Post Request for Single Triger.
+      └── 2.1.HTTP Post Request for Multiple Trigers.
+```
+
+```
+widgets
+  ├── 1.0. Action.
+  │   ├── 1.1. On/Off Switch.
+  │   ├── 1.2. Slider Switch.
+  │   └── 1.3. Selection Switch.
+  └── 2.0. Triger
+      ├── 2.1. Field Value.
+      ├── 2.2. pi Chart.
+      ├── 2.3. Bar Chart.
+      ├── 2.4. Line Chart.
+      └── 2.5. Area Chart.
+```
+
+>>## 1.0.  Get Request : When you send a 'get request' to the Server, it's send back to you it's update. In case, when you send a get request to the IoT Snacks Box Server, it send back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
 >> >>   ### 1.1. Get Request for Single Action/Switch: ###
 
 
