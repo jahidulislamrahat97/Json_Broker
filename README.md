@@ -40,7 +40,9 @@ widgets
 ```
 
 >>## 1.0.  Get Request : When you send a 'get request' to the Server, it's send back to you it's update. In case, when you send a get request to the IoT Snacks Box Server, it send back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
->> >>   ### 1.1. Get Request for Single Action/Switch: ###
+
+
+>>   ## 1.1. Get Request for Single Action/Switch: ##
 
 
 ``` cpp
@@ -100,7 +102,7 @@ void loop() {
 
 }
 ```
->> >>   ### 1.2. Get Request for Multiple Action/Switch: ###
+>>   ## 1.2. Get Request for Multiple Action/Switch: ##
 
 
 ``` cpp
@@ -170,7 +172,8 @@ void loop() {
 
 
 >> ## 2.0.  Post Request: If you want to see your data to IoT server in different widgets like [Field value]() / [pi chart]() / [Line chart]() / [Bar chart]() / [Area Chart](). you need to send a post request with your data. like (Temperature : 30°C, Light : 220lm).     ##
->> >>   ### 2.1. Post Request for Single Triger/Sensor: ###
+
+>> ## 2.1. Post Request for Single Triger/Sensor: ##
 
 
 ``` cpp
@@ -238,7 +241,8 @@ void loop() {
 
 
 ```
->> >>   ### 2.1. Post Request for Multiple Triger/Sensors: ###
+>> ## 2.1. Post Request for Multiple Triger/Sensors: ##
+
 
 
 ``` cpp
