@@ -4,17 +4,20 @@
 
 This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it. 
 
+<br>
+
 **What is iotsnacks box?**
 <br>
 <blockquote> IoT snacks box is an integrated hardware and software platform to deliver end-to-end IoT solutions. Using this device and platform, data can remotely monitor & control by automate processes through IoT.
 </blockquote>
+<br>
 
 **What types of work can be done by iotsnacksbox?**
 <br>
 <blockquote>
 Automate processes for  agriculture, industry automation, energy control, healthcare, datalogging and any other system that  can be solved using IoT. With the latest technology and user engaging user experience design with the  finest architecture our web platform allows users to deploy cloud IoT applications, control & monitor  dashboards with any IoT devices. 
 </blockquote>
-
+<br>
 
 **iotsnacksbox for whom?**
 <br>
@@ -57,7 +60,7 @@ widgets
       └── 2.5. Area Chart.
 ```
 
->>## 1.0.  Get Request : When you send a 'get request' to the Server, it's send back to you it's update. In case, when you send a get request to the IoT Snacks Box Server, it send back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
+>>## 1.0.  Get Request : When you send a 'get request' to the server, it sends back to you it's update. In case, when you send a ‘get request’ to the IoT Snacks Box Server, it sends back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
 
 
 >>   ## 1.1. Get Request for Single Action/Switch: ##
@@ -338,63 +341,26 @@ You cannot contribute to this repository. If you want to contribute, go to the [
 # Credit #
 <p align="center">
   <a href="#">
-    <img alt="Rahat" src="https://avatars.githubusercontent.com/u/41055866?s=460&u=52d15e31f977e41498fab3b4ba4128d1c27cdf0f&v=4" width="100" />
+    <img alt="Rahat" src="https://avatars.githubusercontent.com/u/41055866?s=460&u=52d15e31f977e41498fab3b4ba4128d1c27cdf0f&v=4" width="100"  />
   </a>
-<h1 align="center" style="margin-bottom: 0px;">
-  Jahidul Islam Rahat
-</h1>
+  <h1 align="center" style="margin-bottom: 0px;  border: 0;">Jahidul Islam Rahat
+  </h1>
+  <div  width: 500px; height: 50px; margin-top: 10px; vertical-align: middle; align="center">
+    <img src="https://camo.githubusercontent.com/013ab4b8c0a14af1d626b6106c10a4ca83129f9b89d063db25612dcb88740bc5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f66616365626f6f6b2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">    
+
+  <img src="https://camo.githubusercontent.com/c80f9763ed06d4ab9fbcc1a74b8b74cd95e4c7f82d3f1f70233994f236a0faeb/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f696e7374616772616d2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">   
+
+  <img src="https://camo.githubusercontent.com/d659d2bac00c01b42bffbae84bdc121e828b8fecd5b4949ffa2575f5d9e4a371/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6c696e6b6564696e2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">   
+
+  <img src="https://camo.githubusercontent.com/5f5cadad3e06f6dd96c64d4025e219856ae6f923799bc8ea4e628013de25724a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6769746875622e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">  
+
+ </div>
 </p>
 
-<div id="icon_wrap">
-	<div class="facebook"></div>
-	<div class="linkdin"></div>
-	<div class="instagram"></div>
-  <div class="github"></div>
-</div>
-
-<style>
-
-#icon_wrap{
-  width: 500px;
-  height: 50px;
-  margin-top: 10px;
-  vertical-align: middle;
-}
-.facebook{
-	background-image:url("https://camo.githubusercontent.com/013ab4b8c0a14af1d626b6106c10a4ca83129f9b89d063db25612dcb88740bc5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f66616365626f6f6b2e737667");
-  width: 50px;
-  height: 50px;
-	border-radius: 500px;
-	float:left;
-	margin-left: 11px;
-}
-.linkdin{
-	background-image:url("https://camo.githubusercontent.com/d659d2bac00c01b42bffbae84bdc121e828b8fecd5b4949ffa2575f5d9e4a371/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6c696e6b6564696e2e737667");
-  width: 50px;
-  height: 50px;
-	border-radius: 500px;
-	float:left;
-	margin-left: 11px;
-}
-.instagram{
-	background-image:url("https://camo.githubusercontent.com/c80f9763ed06d4ab9fbcc1a74b8b74cd95e4c7f82d3f1f70233994f236a0faeb/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f696e7374616772616d2e737667");
-  width: 50px;
-  height: 50px;
-	border-radius: 500px;
-	float:left;
-	margin-left: 11px;
-}
-.github{
-	background-image:url("https://camo.githubusercontent.com/5f5cadad3e06f6dd96c64d4025e219856ae6f923799bc8ea4e628013de25724a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6769746875622e737667");
-  width: 50px;
-  height: 50px;
-	border-radius: 500px;
-	float:left;
-	margin-left: 11px;
-}
-
-</style>
-
+<br>
+<br>
+<br>
+<br>
 
 # Learn More #
 
