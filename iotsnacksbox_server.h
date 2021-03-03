@@ -1,5 +1,5 @@
-#ifndef JSON_BROKER_H
-#define JSON_BROKER_H
+#ifndef iotsnacksbox_server_H
+#define iotsnacksbox_server_H
 #include <Arduino.h>
 #include <ArduinoJson.h>
 #include <WString.h>

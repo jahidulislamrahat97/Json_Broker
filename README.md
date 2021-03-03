@@ -1,4 +1,8 @@
-# Json Broker Library for Arduino, esp32, esp8266. # 
+![iotsnackbox.io](/assets/logo.png)
+
+[![arduino-library-badge](https://www.ardu-badge.com/badge/iotsnacksbox_server.svg?version=1.0.1)]()
+
+## IoT Snacksbox Server Library for Arduino, esp32, esp8266. ## 
 
 # Overview #
 
@@ -60,15 +64,23 @@ widgets
       └── 2.5. Area Chart.
 ```
 
->>## 1.0.  Get Request : When you send a 'get request' to the server, it sends back to you it's update. In case, when you send a ‘get request’ to the IoT Snacks Box Server, it sends back to you it's  ([Switch]() / [Slider]() / [Selection switch]() / [Action]()) Position. Like is it on/off or its position.  ##
+<br>
 
+**1.0. GET Request**
+<br>
+<blockquote>
+ GET is used to retrieve and request data from a specified resource in a server. GET is one of the most popular HTTP request techniques. In simple words, the GET method is used to retrieve whatever information is identified by the Request-URL. In case, when you send a GET Request() to the IoT Snacks Box Server, it sends back to you it's (Switch/Slider/Selection Switch/Action) position. Like it’s on/off or its position.
+</blockquote>
 
->>   ## 1.1. Get Request for Single Action/Switch: ##
+<br>
+
+**1.1. Get Request for Single Action/Switch :**
+<br>
 
 
 ``` cpp
-/* Include Json_Broker library. */
-#include <Json_Broker.h>
+/* Include iotsnacksbox_server library. */
+#include <iotsnacksbox_server.h>
 #include <WiFi.h>
 
 // Replace with your network credentials
@@ -123,12 +135,15 @@ void loop() {
 
 }
 ```
->>   ## 1.2. Get Request for Multiple Action/Switch: ##
+<br>
+
+**1.2. Get Request for Multiple Actions/Switch:**
+<br>
 
 
 ``` cpp
-/* Include Json_Broker library. */
-#include <Json_Broker.h>
+/* Include iotsnacksbox_server library. */
+#include <iotsnacksbox_server.h>
 #include <WiFi.h>
 
 // Replace with your network credentials
@@ -190,16 +205,23 @@ void loop() {
 ```
 *** If you don't understand see the [Api documentation for GET Request](), [Tutorial for GET Request](). 
 
+<br>
+<br>
 
+**2.0. POST Request**
+<br>
+<blockquote>
+ POST Request: In web communication, POST requests are utilized to send data to a server to create or update a resource.  The information submitted to the server with POST request method is archived in the request body of the HTTP request. The HTTP POST method is often used to send user-generated data to a server. One example is when a user uploads a profile photo. If you want to see your data in IoT server in different widgets (Field value /Pi chart /Line chart/Bar chart/Area Chart), you need to send a POST Request() with your data like (Temperature : 30°C, Light : 220lm).
+</blockquote>
 
->> ## 2.0.  Post Request: If you want to see your data to IoT server in different widgets like [Field value]() / [pi chart]() / [Line chart]() / [Bar chart]() / [Area Chart](). you need to send a post request with your data. like (Temperature : 30°C, Light : 220lm).     ##
+<br>
 
->> ## 2.1. Post Request for Single Triger/Sensor: ##
-
+**2.1. Post Request for Single Triger/Sensor:**
+<br>
 
 ``` cpp
-/* Include Json_Broker library. */
-#include <Json_Broker.h>
+/* Include iotsnacksbox_server library. */
+#include <iotsnacksbox_server.h>
 #include <WiFi.h>
 
 // Replace with your network credentials
@@ -262,13 +284,15 @@ void loop() {
 
 
 ```
->> ## 2.1. Post Request for Multiple Triger/Sensors: ##
 
+<br>
 
+**2.2. Post Request for Multiple Triger/Sensors:**
+<br>
 
 ``` cpp
-/* Include Json_Broker library. */
-#include <Json_Broker.h>
+/* Include iotsnacksbox_server library. */
+#include <iotsnacksbox_server.h>
 #include <WiFi.h>
 
 // Replace with your network credentials
@@ -334,33 +358,11 @@ void loop() {
 
 # Contribution #
 
-You cannot contribute to this repository. If you want to contribute, go to the [developer's repository]().
-
 
 
 # Credit #
-<p align="center">
-  <a href="#">
-    <img alt="Rahat" src="https://avatars.githubusercontent.com/u/41055866?s=460&u=52d15e31f977e41498fab3b4ba4128d1c27cdf0f&v=4" width="100"  />
-  </a>
-  <h1 align="center" style="margin-bottom: 0px;  border: 0;">Jahidul Islam Rahat
-  </h1>
-  <div  width: 500px; height: 50px; margin-top: 10px; vertical-align: middle; align="center">
-    <img src="https://camo.githubusercontent.com/013ab4b8c0a14af1d626b6106c10a4ca83129f9b89d063db25612dcb88740bc5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f66616365626f6f6b2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">    
 
-  <img src="https://camo.githubusercontent.com/c80f9763ed06d4ab9fbcc1a74b8b74cd95e4c7f82d3f1f70233994f236a0faeb/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f696e7374616772616d2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">   
 
-  <img src="https://camo.githubusercontent.com/d659d2bac00c01b42bffbae84bdc121e828b8fecd5b4949ffa2575f5d9e4a371/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6c696e6b6564696e2e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">   
-
-  <img src="https://camo.githubusercontent.com/5f5cadad3e06f6dd96c64d4025e219856ae6f923799bc8ea4e628013de25724a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f6769746875622e737667" style=" width: 50px; height: 50px; border-radius: 500px; float:left; margin-left: 11px;">  
-
- </div>
-</p>
-
-<br>
-<br>
-<br>
-<br>
 
 # Learn More #
 

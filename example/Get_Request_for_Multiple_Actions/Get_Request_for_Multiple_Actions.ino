@@ -7,7 +7,7 @@
    Date: 2 Feb 2021.
 *********************************************************************************/
 /*
-   Example code for Json Broker Libray.()
+   Example code for iotsnacksbox_server Libray.()
    IoT Dashboard: https://iotsnacksbox.io/ - (IoT Snacksbox is an IoT server.
    where you can use it for factory monitoring, Appliances Control,
    Data Visualization, Smart Production Planning, Data Backup, Access Control,
@@ -18,7 +18,7 @@
 
 
 #include <WiFi.h>
-#include <Json_Broker.h>
+#include <iotsnacksbox_server.h>
 
 // Replace with your network credentials
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
