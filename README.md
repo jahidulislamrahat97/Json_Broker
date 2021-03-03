@@ -1,17 +1,18 @@
-<p align="center"><a href="iotsnackbox.io" target="_blank" rel="noopener noreferrer"><img width="150" src="./assets/logo.png" alt="iotsnackbox.io"></a></p>
-
 <p align="center">
-
-  <a href="iotsnackbox.io"><img src="https://www.ardu-badge.com/badge/iotsnacksbox_server.svg?version=1.0.1" alt="Build Status"></a>
-
+  <a href="iotsnackbox.io" target="_blank" rel="noopener noreferrer"><img width="150" src="./assets/logo.png" alt="iotsnackbox.io">
+  </a>
+  <br>
+  <a href="iotsnackbox.io"><img src="https://www.ardu-badge.com/badge/iotsnacksbox_server.svg?version=1.0.1" alt="Build Status">
+  </a>
 </p>
 
+<h2 align="center">IoT Snacksbox Server Library for Arduino, esp32, esp8266.</h2>
 
 
 
-## IoT Snacksbox Server Library for Arduino, esp32, esp8266. ## 
 
-# Overview #
+
+## Overview ##
 
 This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it. 
 
@@ -36,16 +37,16 @@ Automate processes for  agriculture, industry automation, energy control, health
 This development board provides a range of features that allow developers to build advanced application for smart home, education purpose, gardening, security system specially industrial automation and agricultural sectors.
 </blockquote>
  
-# Installation #
+## Installation ##
 
 This library has some dependency with others library. If you don't have these library you can download it from here. 
 1. [Arduino Json.](https://github.com/bblanchon/ArduinoJson)
 2. [HTTP Client.](https://github.com/espressif/arduino-esp32/tree/master/libraries/HTTPClient)
 
-***If you don't understand see the [Tutorial for Installation](). 
+[Tutorial for Installation](). 
 
 
-# Usage And Examples #
+## Usage And Examples ##
 
 ```
 HTTP Request.
@@ -363,14 +364,14 @@ void loop() {
 *** If you don't understand see the [Api documentation for POST Request ](), [Tutorial for POST Request](). 
 
 
-# Contribution #
+## Contribution ##
 
 
 
-# Credit #
+## Credit ##
 
 
 
-# Learn More #
+## Learn More ##
 
 
