@@ -1,6 +1,13 @@
-![iotsnackbox.io](/assets/logo.png)
+<p align="center"><a href="iotsnackbox.io" target="_blank" rel="noopener noreferrer"><img width="150" src="./assets/logo.png" alt="iotsnackbox.io"></a></p>
 
-[![arduino-library-badge](https://www.ardu-badge.com/badge/iotsnacksbox_server.svg?version=1.0.1)]()
+<p align="center">
+
+  <a href="iotsnackbox.io"><img src="https://www.ardu-badge.com/badge/iotsnacksbox_server.svg?version=1.0.1" alt="Build Status"></a>
+
+</p>
+
+
+
 
 ## IoT Snacksbox Server Library for Arduino, esp32, esp8266. ## 
 
