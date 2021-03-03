@@ -6,15 +6,19 @@
   </a>
 </p>
 
-<h2 align="center">IoT Snacksbox Server Library for Arduino, esp32, esp8266.</h2>
+<h2 align="center">IoT Snacksbox Server Library for Arduino, Esp32, Esp8266.
+</h2>
+
+
+<p align="center">This library will help you to communicate with the IoT server. Will help control any component from the server. Will help to send any data from the device to the server. Basically it will be helpful for HTTP GET POST.
+</p>
+
+<br>
+<br>
 
 
 
-
-
-## Overview ##
-
-This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it. 
+ℹ This library will only work in [iotsnackbox.io](https://iotsnacksbox.io/) environment. We recommend it for beginner level coders. If you are in advanced level you can also use it to skip huge lines of code. Otherwise you can use it.🙂 
 
 <br>
 
@@ -37,6 +41,8 @@ Automate processes for  agriculture, industry automation, energy control, health
 This development board provides a range of features that allow developers to build advanced application for smart home, education purpose, gardening, security system specially industrial automation and agricultural sectors.
 </blockquote>
  
+<br>
+
 ## Installation ##
 
 This library has some dependency with others library. If you don't have these library you can download it from here. 
@@ -45,6 +51,7 @@ This library has some dependency with others library. If you don't have these li
 
 [Tutorial for Installation](). 
 
+<br>
 
 ## Usage And Examples ##
 
